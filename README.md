@@ -1,0 +1,2 @@
+## CLI em Python puro utilizando apenas bibliotecas padrão que valida e organiza arquivos brutos de uma landing zone antes da ingestão.
+O landing-guard lê uma pasta de origem (landing), valida cada arquivo, move os válidos para uma estrutura particionada (bronze), isola os inválidos (quarentena), ignora duplicatas e grava um manifest da execução.
